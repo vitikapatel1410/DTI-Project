@@ -77,13 +77,12 @@ Predict whether a drug–protein pair shows binding interaction (active) or not 
 
 ## PROJECT STRUCTURE
 
-DTI-Predictor/
-│
-├── data/                      # Raw and cleaned BindingDB files
-├── dti_pipeline.ipynb         # Main Jupyter notebook
-├── model/                     # Trained models (optional .pkl/.joblib)
-├── figures/                   # ROC curves, SHAP plots
-└── README.md                  # Project summary
+DTI-Predictor
+* data                      # Raw and cleaned BindingDB files
+* dti_pipeline.ipynb         # Main Jupyter notebook
+* model                    # Trained models (optional .pkl/.joblib)
+* figures                  # ROC curves, SHAP plots
+* README.md                  # Project summary
 
 ## HOW TO RUN
 
